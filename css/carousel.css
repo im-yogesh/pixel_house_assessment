@@ -1,0 +1,30 @@
+.carousel-item h5 {
+    font-family: TRENTO;
+    font-size: 8px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    padding: 12px 0 35px;
+}
+
+.carousel-item p {
+    color: #f0e9dbcc;
+    font-family: Aileron;
+    line-height: 20px;
+    letter-spacing: .32px;
+    max-width: 350px;
+    margin: 0 auto;
+    padding-bottom: 60px;
+}
+
+.carousel-item a {
+    color: #43331b;
+    font-family: Aileron !important;
+    letter-spacing: .45px;
+    background: #fff;
+    padding: 10px 40px;
+    text-decoration: none;
+}
+
+.carousel-caption {
+    padding-bottom: 95px;
+}

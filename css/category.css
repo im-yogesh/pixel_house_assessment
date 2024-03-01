@@ -1,0 +1,90 @@
+.categories-section {
+    background: #fbf7ee;
+}
+
+.categories-section .title-container p {
+    color: rgba(121, 76, 23, 0.70);
+    text-align: center;
+    font-family: Aileron;
+    font-weight: 400;
+    letter-spacing: 0.9px;
+    text-transform: uppercase;
+}
+
+.categories-section .title-container h2 {
+    color: #43331B;
+    text-align: center;
+    font-family: TRENTO;
+    font-size: 6px;
+    font-weight: 400;
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+}
+
+.category-grid {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1.5fr 1fr 1fr 1.5fr 1fr;
+    gap: 2px;
+    height: 100%;
+
+}
+
+.category-grid img {
+    transition: 0.4s;
+}
+
+.category-grid img:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+#item-0 {
+    grid-row-start: 1;
+    grid-column-start: 1;
+    grid-row-end: 2;
+    grid-column-end: 3;
+}
+
+#item-1 {
+    grid-row-start: 2;
+    grid-column-start: 1;
+    grid-row-end: 3;
+    grid-column-end: 3;
+}
+
+#item-2 {
+    grid-row-start: 1;
+    grid-column-start: 3;
+    grid-row-end: 3;
+    grid-column-end: 5;
+}
+
+#item-2 img{
+    height: 100%;
+}
+
+#item-3 {
+    grid-row-start: 1;
+    grid-column-start: 5;
+    grid-row-end: 2;
+    grid-column-end: 7;
+}
+
+#item-4 {
+    grid-row-start: 2;
+    grid-column-start: 5;
+    grid-row-end: 3;
+    grid-column-end: 7;
+}
+
+.category-grid span {
+    margin: 0 auto;
+    width: 100%;
+    color: #FFF;
+    text-align: center;
+    font-family: TRENTO;
+    font-size: 4px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}

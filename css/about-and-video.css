@@ -1,0 +1,55 @@
+.about-section .row .second-col {
+    background: url(https://punitbalana.in/cdn/shop/files/Monogram_-_Homepage_2.png?v=1697793889);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.video {
+    padding-top: 100px;
+}
+
+.about-section .row .second-col div,
+.video .row .first-col div {
+    padding: 55px 110px 0 110px;
+}
+
+.about-section .row .second-col div .first,
+.video .row .first-col div .first {
+    color: rgba(121, 76, 23, 0.70);
+    font-family: Aileron;
+    font-size: 14px;
+    letter-spacing: 0.9px;
+    text-transform: uppercase;
+}
+
+.about-section .row .second-col div h2,
+.video .row .first-col div h2 {
+    color: #43331B;
+    text-align: center;
+    font-family: TRENTO;
+    font-size: 6px;
+    line-height: 550%;
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+    margin-bottom: 55px;
+}
+
+.about-section .row .second-col div .last-p,
+.video .row .first-col div .last-p {
+    color: rgba(39, 29, 8, 0.70);
+    text-align: center;
+    font-family: Aileron;
+    font-size: 14px;
+    letter-spacing: .9px;
+    max-width: 320px;
+    padding-bottom: 15px;
+}
+
+.about-section .row .second-col div a,
+.video .row .first-col div a {
+    color: #421E04;
+    font-family: Aileron;
+    font-weight: 900;
+    line-height: normal;
+    letter-spacing: 0.45px;
+}
